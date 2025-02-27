@@ -22,27 +22,28 @@ O repositório está organizado da seguinte forma:
 ```
 intro-estatistica-llms/
 |
-|-- 01_Conceitos_Basicos/        # Fundamentos de Estatística
-|   |-- introducao_estatistica.ipynb
-|   |-- estatistica_descritiva.ipynb
+|-- activity 4/ Estimando o intervalo de confiança para a média      
+|   
 |
-|-- 02_Analise_de_Dados/         # Análises práticas com Estatística
-|   |-- analise_exploratoria.ipynb
-|   |-- testes_estatisticos.ipynb
+|-- activity 5/ Experimento: Cross-Entropy Loss com Softmax       
+|   
 |
-|-- 03_Large_Language_Models/    # Introdução aos LLMs
-|   |-- conceitos_llms.ipynb
-|   |-- aplicacao_llms_educacao.ipynb
+|-- activity 6/   
+|   
 |
-|-- 04_Projetos_Aplicados/       # Projetos que integram Estatística e LLMs
-|   |-- projeto_exemplo_1.ipynb
-|   |-- projeto_exemplo_2.ipynb
-|
-|-- assets/                      # Imagens, gráficos e arquivos de suporte
+|-- activity 7/ Entedimento sobre aprendizado de máquina e estudos das métricas de avaliação     
+|   
+
+|-- activity 8/ Backpropagation e o entendimento de uma rede neural utilizando o PyTorch     
+|   
+
+|-- activity 9/ Prática com backpropagation e desenvolvimento de uma rede neural manual e o outra com PyTorch utilizando ReLU
+|                   
+|-- activity 10/ Rede Neural Recorrente com vetores de *Word Embedding*   
 |
 |-- README.md                    # Documentação principal
 |
-|-- requirements.txt             # Dependências do projeto
+|-- pyproject.toml             # Dependências do projeto
 ```
 
 ---
@@ -51,7 +52,7 @@ intro-estatistica-llms/
 
 Para reproduzir os códigos, é necessário ter instalado:
 
-- **Python 3.8+**
+- **Python 3.12+**
 - **Jupyter Notebook** ou **JupyterLab**
 - **Bibliotecas Principais**:
   - `numpy`
@@ -59,7 +60,8 @@ Para reproduzir os códigos, é necessário ter instalado:
   - `matplotlib`
   - `seaborn`
   - `scikit-learn`
-  - `transformers`
+  - `scipy`
+  - `PyTorch`
 
 ### Instalação das Dependências
 
@@ -71,7 +73,7 @@ git clone https://github.com/jeancarloscc/intro-estatistica-llms.git
 cd intro-estatistica-llms
 
 # Instale as dependências
-pip install -r requirements.txt
+pip install -r 
 ```
 
 ---
