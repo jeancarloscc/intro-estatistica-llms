@@ -1,6 +1,0 @@
-# Ignorar arquivos temporários
-*.log
-*.tmp
-
-# Ignorar a pasta node_modules
-.ipynb_checkpoints/
