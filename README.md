@@ -20,31 +20,39 @@ O objetivo principal deste repositório é armazenar e disponibilizar materiais 
 O repositório está organizado da seguinte forma:
 
 ```
-intro-estatistica-llms/
-|
-|-- Backpropagation Detais Pt. 2/
-|      
-|   
-|
-|-- / Experimento: Cross-Entropy Loss com Softmax       
-|   
-|
-|-- activity 6/   
-|   
-|
-|-- activity 7/ Entedimento sobre aprendizado de máquina e estudos das métricas de avaliação     
-|   
-
-|-- activity 8/ Backpropagation e o entendimento de uma rede neural utilizando o PyTorch     
-|   
-
-|-- activity 9/ Prática com backpropagation e desenvolvimento de uma rede neural manual e o outra com PyTorch utilizando ReLU
-|                   
-|-- activity 10/ Rede Neural Recorrente com vetores de *Word Embedding*   
-|
-|-- README.md                    # Documentação principal
-|
-|-- pyproject.toml             # Dependências do projeto
+├── Backpropagation Details Pt. 2
+│   ├── Parte A - backpropagation_manual_com_pytorch.ipynb
+│   ├── Parte B - ReLU em ação - Alternativa.ipynb
+│   ├── Parte C - Gradient Descent e aprendizado de padrões.ipynb
+│   ├── Parte B - ReLU em ação.ipynb
+│   ├── fig1.png
+├── Backpropagation Main Ideas
+│   ├── solução com pytorch.ipynb
+│   ├── conversao_calculos.ipynb
+│   ├── solucao_pytorch.ipynb
+├── p-value e confidence intervals
+│   ├── activity3.ipynb
+│   ├── activity1.ipynb
+│   ├── activity2.ipynb
+├── Recurrent Neural Networks and   word embeddings
+│   ├── rnn_unroll.ipynb
+│   ├── word_embedding_train.ipynb
+├── Métricas, features e rede neural simple
+│   ├── entendimento_codigo.ipynb
+│   ├── images
+│   │   ├── 02_03.png
+│   │   ├── 01_08.png
+│   │   ├── 02_02.png
+│   │   ├── 02_01.png
+│   │   ├── 01_09.png
+│   │   ├── 02_04.png
+│   ├── metricas_rede_neural.ipynb
+├── Naive Bayes
+│   ├── Atividade B.ipynb
+│   ├── atividade A.ipynb
+│   ├── Atividade C.ipynb
+├── Cross-entropy loss, Softmax e True labels
+│   ├── cross_entropy_softmax.ipynb
 ```
 
 ---
@@ -74,7 +82,7 @@ git clone https://github.com/jeancarloscc/intro-estatistica-llms.git
 cd intro-estatistica-llms
 
 # Instale as dependências
-pip install -r 
+poetry install
 ```
 
 ---
@@ -82,27 +90,11 @@ pip install -r
 ## Como Utilizar os Códigos
 
 1. **Acesse os notebooks**: Navegue até a pasta desejada e abra os notebooks com Jupyter Notebook ou JupyterLab.
-   ```bash
-   jupyter notebook
-   ```
+```bash
+ jupyter notebook
+```
 2. **Execute os códigos**: Execute cada célula para visualizar os resultados.
 3. **Adapte para seus dados**: Sinta-se à vontade para modificar os códigos e aplicar aos seus próprios dados.
-
----
-
-## Exemplos de Conteúdo
-
-### Estatística Descritiva
-- Médias, medianas e medidas de dispersão, distribuição normal, teoria do limite central
-- Visualização de dados com **matplotlib** e **seaborn**
-
-### Testes Estatísticos
-- Testes de hipóteses
-- Correlações e regressões simples
-
-### Introdução aos LLMs
-- Demonstração prática usando a biblioteca **Transformers**
-- Aplicação de LLMs para gerar relatórios e sumarização automática de dados
 
 ---
 
@@ -131,7 +123,7 @@ Para dúvidas ou sugestões, entre em contato:
 - **Nome**: Jean Carlos
 - **E-mail**: jeancc.costa@gmail.com
 - **LinkedIn**: [jeancc-costa](https://www.linkedin.com/in/jeancc-costa/)
-- **Lattes**: [Clique aqui!](https://lattes.cnpq.br/1659693816509187)
+- **Lattes**: [Visualize o meu lattes!](https://lattes.cnpq.br/1659693816509187)
 
 ---
 
