@@ -1,6 +1,6 @@
 [project]
 name = "llms-disciplina"
-version = "0.1.0"
+version = "1.0.0"
 description = "Este projeto é para práticas de programação na disciplina de LLMs e aprender a usar ferramentas."
 authors = [
     {name = "Jean Carlos",email = "jeancc.costa@gmail.com"}
