@@ -1,10 +1,11 @@
 [project]
 name = "llms-disciplina"
-version = "1.0.0"
+version = "2.0.0"
 description = "Este projeto é para práticas de programação na disciplina de LLMs e aprender a usar ferramentas."
 authors = [
     {name = "Jean Carlos",email = "jeancc.costa@gmail.com"}
 ]
+package-mode = false
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12"
@@ -20,9 +21,8 @@ dependencies = [
     "watermark (>=2.5.0,<3.0.0)",
     "torch (>=2.6.0,<3.0.0)",
     "torchvision (>=0.21.0,<0.22.0)",
-    "torchaudio (>=2.6.0,<3.0.0)"
+    "torchaudio (>=2.6.0,<3.0.0)",
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
