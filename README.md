@@ -59,7 +59,8 @@ O repositório está organizado da seguinte forma:
 
 ## Requisitos
 
-Para reproduzir os códigos, é necessário ter instalado:
+Para reproduzir os códigos, é necessário ter instalado o Poetry na sua máquina e seguir os passos a 
+seguir:
 
 - **Python 3.12+**
 - **Jupyter Notebook** ou **JupyterLab**
